@@ -1,0 +1,4 @@
+*** Error 23 "C:\PROGRA~2\PICC\devices\16F877A.h" Line 2(8,9): Can not change device type this far into the code
+*** Error 48 "C:\PROGRA~2\PICC\devices\16F877A.h" Line 165(1,23): Expecting a (
+*** Error 48 "C:\PROGRA~2\PICC\devices\16F877A.h" Line 165(6,11): Expecting a (
+      3 Errors,  0 Warnings.

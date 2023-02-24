@@ -1,0 +1,177 @@
+001     TMR0
+004-005 @READ_PROGRAM_MEMORY8.P1
+004     @WRITE_PROGRAM_MEMORY8.P2
+008     PORTD
+008     PSP_DATA
+00B     INTCON
+00B.5   TMR0IE
+00B.6   PEIE
+00B.7   GIE
+00E     TMR1L
+00F     TMR1H
+010     T1CON
+010.0   TMR1ON
+010.1   TMR1CS
+010.4   T1CKPS0
+010.5   T1CKPS1
+015     CCP_1_LOW
+015-016 CCP_1
+016     CCP_1_HIGH
+01B     CCP_2_LOW
+01B-01C CCP_2
+01C     CCP_2_HIGH
+01E     ADRESH
+01F     ADCON0
+01F.0   ADON
+01F.2   GODONE
+01F.6   ADCS0
+01F.7   ADCS1
+020     @INTERRUPT_AREA
+021     @INTERRUPT_AREA
+022     @INTERRUPT_AREA
+023     @INTERRUPT_AREA
+024     @INTERRUPT_AREA
+025     @INTERRUPT_AREA
+026     @INTERRUPT_AREA
+027     @INTERRUPT_AREA
+028     @INTERRUPT_AREA
+029-02A strtok.save
+02B-02E _Randseed
+02F-030 thres
+031-032 tmr1P
+033-034 int_cnt1
+035-036 int_cnt2
+037-038 adval
+039     bpm
+03A     val1
+03B     val2
+03C     val3
+03D     isPeakPoint
+03E     isSeg7Left
+03F     seg7L
+040     seg7R
+041-050 arr_adval
+051-052 sum
+053     i
+054-063 avr_adval
+064-065 advalMax
+066-067 advalMin
+068-069 thresAdaptiveControl.adval
+068-069 filter_8p.input
+068     bpm_conv.input
+068     adval_conv.@SCRATCH1
+069     seg7.input
+069-06A @MUL1616.P1
+069     bpm_conv.@SCRATCH1
+06A     @DIV88.P1
+06A     seg7.@SCRATCH1
+06A     filter_8p.@SCRATCH1
+06A     bpm_conv.@SCRATCH2
+06A     thresAdaptiveControl.@SCRATCH1
+06B-06C @MUL1616.P1
+06B     seg7_conv.input
+06B     @DIV88.P1
+06B     filter_8p.@SCRATCH2
+06B     thresAdaptiveControl.@SCRATCH2
+06C     @DIV88.@SCRATCH1
+06C     filter_8p.@SCRATCH3
+06C     thresAdaptiveControl.@SCRATCH3
+06D     @MUL1616.@SCRATCH1
+06D     filter_8p.@SCRATCH4
+06D     thresAdaptiveControl.@SCRATCH4
+06E-06F @DIV1616.P1
+06E     filter_8p.@SCRATCH5
+06E     thresAdaptiveControl.@SCRATCH5
+070-071 @DIV1616.P1
+072     @DIV1616.@SCRATCH1
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+07B     @SCRATCH
+07F     @INTERRUPT_AREA
+081     OPTION_REG
+081.0   PS0
+081.1   PS1
+081.2   PS2
+081.3   PSA
+081.5   T0CS
+085     TRISA
+085.1   RA1_Data
+088     TRISD
+089.0   TRISEbit0
+089     TRISE
+089.1   TRISEbit1
+08C     PIE1
+08C.0   TMR1IE
+09C.6   C1OUT
+09C.7   C2OUT
+09E     ADRESL
+09F.0   PCFG0
+09F     ADCON1
+09F.1   PCFG1
+09F.2   PCFG2
+09F.3   PCFG3
+09F.6   ADCS2
+09F.7   ADFM
+0FF     @INTERRUPT_AREA
+10D-10E @READ_PROGRAM_MEMORY8.P1
+10D-10E @WRITE_PROGRAM_MEMORY8.P2
+17F     @INTERRUPT_AREA
+1FF     @INTERRUPT_AREA
+27F     @INTERRUPT_AREA
+2FF     @INTERRUPT_AREA
+37F     @INTERRUPT_AREA
+3FF     @INTERRUPT_AREA
+
+ROM Allocation:
+01AA  @MUL1616
+003A  @DIV1616
+0035  T360
+005F  @DIV88
+0074  seg7_conv
+0219  seg7_dsp
+01CF  seg7
+00D0  filter_8p
+0185  bpm_conv
+0126  thresAdaptiveControl
+00C0  adval_conv
+023D  MAIN
+023D  @cinit
+0136  StrtoulGO
+0136  StrtolGO
+
+Project Directory:
+    C:\Work\PIC16F877A\UART_Project\
+
+Project Files:
+    UART_Project.c
+    ..\..\..\PROGRA~2\PICC\devices\16F877A.h
+    ..\..\..\PROGRA~2\PICC\drivers\stdio.h
+    ..\..\..\PROGRA~2\PICC\drivers\string.h
+    ..\..\..\PROGRA~2\PICC\drivers\stddef.h
+    ..\..\..\PROGRA~2\PICC\drivers\ctype.h
+    ..\..\..\PROGRA~2\PICC\drivers\stdlib.h
+
+Units:
+    UART_Project.c (main)
+
+Compiler Settings:
+    Processor:      PIC16F877A
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      UART_Project.err
+    Ext Symbols: UART_Project.esym
+    INHX8:       UART_Project.hex
+    Symbols:     UART_Project.sym
+    List:        UART_Project.lst
+    Debug/COFF:  UART_Project.cof
+    Project:     UART_Project.PJT
+    Call Tree:   UART_Project.tre
+    Statistics:  UART_Project.sta

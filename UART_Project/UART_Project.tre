@@ -1,0 +1,18 @@
+ÀÄUART_Project
+   ÃÄMAIN  0/113  Ram=0
+   ³  ÃÄ??0??
+   ³  ÀÄT360  0/5  Ram=0
+   ÀÄadval_conv  0/381  Ram=1
+      ÃÄT360  0/5  Ram=0
+      ÃÄfilter_8p  (Inline)  Ram=7
+      ÃÄthresAdaptiveControl  (Inline)  Ram=7
+      ³  ÀÄ@DIV1616  0/37  Ram=5
+      ÃÄbpm_conv  (Inline)  Ram=3
+      ³  ÃÄ@MUL1616  (Inline)  Ram=5
+      ³  ÃÄ@DIV1616  0/37  Ram=5
+      ³  ÀÄseg7  (Inline)  Ram=2
+      ³     ÃÄ@DIV88  0/21  Ram=3
+      ³     ÃÄseg7_conv  0/76  Ram=1
+      ³     ÃÄ@DIV88  0/21  Ram=3
+      ³     ÀÄseg7_conv  0/76  Ram=1
+      ÀÄseg7_dsp  (Inline)  Ram=0

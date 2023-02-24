@@ -1,0 +1,43 @@
+_RETURN_
+CCP_1
+CCP_1_LOW
+CCP_1_HIGH
+CCP_2
+CCP_2_LOW
+CCP_2_HIGH
+PSP_DATA
+C1OUT
+C2OUT
+PORTD
+TEST_PIN
+TRISD
+INTCON
+GIE
+PEIE
+TMR0IE
+cnt
+
+Project Directory:
+    C:\Work\PIC16F877A\LED_LAB1\
+
+Project Files:
+    LED_LAB1.c
+    ..\..\..\PROGRA~2\PICC\devices\16F877A.h
+
+Units:
+    LED_LAB1.c (main)
+
+Compiler Settings:
+    Processor:      PIC16F877A
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Output file:    Relocatable
+
+Output Files:
+    Errors:      LED_LAB1.err
+    Ext Symbols: LED_LAB1.esym
+    Object:      LED_LAB1.o
+    Symbols:     LED_LAB1.osym

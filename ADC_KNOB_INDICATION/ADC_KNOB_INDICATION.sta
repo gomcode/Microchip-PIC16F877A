@@ -1,0 +1,51 @@
+
+ROM used: 128 (2%)
+          128 (2%) including unused fragments
+
+          0 Average locations per line
+          1 Average locations per statement
+
+RAM used: 19 (5%) at main() level
+          19 (5%) worst case
+
+Stack used: 1 worst case (out of 7 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  109    32  20  ADC_KNOB_INDICATION.c
+   37     0   0  ..\..\..\PROGRA~2\PICC\drivers\stdio.h
+  418   126  80  ..\..\..\PROGRA~2\PICC\drivers\string.h
+   28     0   0  ..\..\..\PROGRA~2\PICC\drivers\stddef.h
+   28     0   0  ..\..\..\PROGRA~2\PICC\drivers\ctype.h
+  313     0   0  ..\..\..\PROGRA~2\PICC\devices\16F877A.h
+----- -----
+  933   158 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     32  25   0   249  4.6  interrupt_1
+0     45  35   0   461  2.4  MAIN
+
+Program metrics:
+    Functions               2
+    Statements              158
+    Comments                280
+    Volume (V)              837
+    Difficilty (D)          7.0
+    Effort to implement (E) 5896
+    Time to implement (T)   5 minutes
+    Est Delivered Bugs (B)  0
+    Cyclomatic Complexity   1
+    Maintainability (MI)    44
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-00032    47  0  
+00033-007FF    77  1920  
+00800-00FFF     0  2048  
+01000-017FF     0  2048  
+01800-01FFF     0  2048  
+
+
+

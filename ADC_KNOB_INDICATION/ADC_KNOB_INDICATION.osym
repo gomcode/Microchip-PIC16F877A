@@ -1,0 +1,48 @@
+_RETURN_
+CCP_1
+CCP_1_LOW
+CCP_1_HIGH
+CCP_2
+CCP_2_LOW
+CCP_2_HIGH
+PSP_DATA
+C1OUT
+C2OUT
+ADCON0
+ADCON1
+ADRESH
+ADRESL
+ADON
+ADCS0
+ADCS1
+ADCS2
+ADFM
+PCFG3
+PCFG2
+PCFG1
+PCFG0
+
+Project Directory:
+    C:\Work\PIC16F877A\LED_LAB1\
+
+Project Files:
+    ADC_KNOB_INDCATION.c
+    ..\..\..\PROGRA~2\PICC\devices\16F877A.h
+
+Units:
+    ADC_KNOB_INDCATION.c (main)
+
+Compiler Settings:
+    Processor:      PIC16F877A
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Output file:    Relocatable
+
+Output Files:
+    Errors:      ADC_KNOB_INDCATION.err
+    Ext Symbols: ADC_KNOB_INDCATION.esym
+    Object:      ADC_KNOB_INDCATION.o
+    Symbols:     ADC_KNOB_INDCATION.osym

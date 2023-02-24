@@ -1,0 +1,4 @@
+>>> Warning 203 "UART_Project.c" Line 335(1,1): Condition always TRUE
+>>> Warning 202 "UART_Project.c" Line 244(15,24): Variable never used:   avr_adval
+      Memory usage:   ROM=8%      RAM=21% - 24%
+      0 Errors,  2 Warnings.

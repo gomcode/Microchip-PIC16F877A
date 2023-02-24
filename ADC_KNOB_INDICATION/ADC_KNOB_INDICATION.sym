@@ -1,0 +1,103 @@
+001     TMR0
+004-005 @READ_PROGRAM_MEMORY8.P1
+004     @WRITE_PROGRAM_MEMORY8.P2
+008     PSP_DATA
+008     PORTD
+00B     INTCON
+00B.5   TMR0IE
+00B.6   PEIE
+00B.7   GIE
+015     CCP_1_LOW
+015-016 CCP_1
+016     CCP_1_HIGH
+01B     CCP_2_LOW
+01B-01C CCP_2
+01C     CCP_2_HIGH
+01E     ADRESH
+01F.0   ADON
+01F     ADCON0
+01F.2   GODONE
+01F.6   ADCS0
+01F.7   ADCS1
+020     @INTERRUPT_AREA
+021     @INTERRUPT_AREA
+022     @INTERRUPT_AREA
+023     @INTERRUPT_AREA
+024     @INTERRUPT_AREA
+025     @INTERRUPT_AREA
+026     @INTERRUPT_AREA
+027     @INTERRUPT_AREA
+028-029 strtok.save
+02A-02B adval
+02C     cnt
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+07B     @SCRATCH
+07F     @INTERRUPT_AREA
+081.0   PS0
+081     OPTION_REG
+081.1   PS1
+081.2   PS2
+081.3   PSA
+081.5   T0CS
+088     TRISD
+09C.6   C1OUT
+09C.7   C2OUT
+09E     ADRESL
+09F     ADCON1
+09F.0   PCFG0
+09F.1   PCFG1
+09F.2   PCFG2
+09F.3   PCFG3
+09F.6   ADCS2
+09F.7   ADFM
+0FF     @INTERRUPT_AREA
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
+17F     @INTERRUPT_AREA
+1FF     @INTERRUPT_AREA
+27F     @INTERRUPT_AREA
+2FF     @INTERRUPT_AREA
+37F     @INTERRUPT_AREA
+3FF     @INTERRUPT_AREA
+
+ROM Allocation:
+0033  interrupt_1
+0053  MAIN
+0053  @cinit
+
+Project Directory:
+    C:\Work\PIC16F877A\ADC_KNOB_INDICATION\
+
+Project Files:
+    ADC_KNOB_INDICATION.c
+    ..\..\..\PROGRA~2\PICC\drivers\stdio.h
+    ..\..\..\PROGRA~2\PICC\drivers\string.h
+    ..\..\..\PROGRA~2\PICC\drivers\stddef.h
+    ..\..\..\PROGRA~2\PICC\drivers\ctype.h
+    ..\..\..\PROGRA~2\PICC\devices\16F877A.h
+
+Units:
+    ADC_KNOB_INDICATION.c (main)
+
+Compiler Settings:
+    Processor:      PIC16F877A
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      ADC_KNOB_INDICATION.err
+    Ext Symbols: ADC_KNOB_INDICATION.esym
+    INHX8:       ADC_KNOB_INDICATION.hex
+    Symbols:     ADC_KNOB_INDICATION.sym
+    List:        ADC_KNOB_INDICATION.lst
+    Debug/COFF:  ADC_KNOB_INDICATION.cof
+    Project:     ADC_KNOB_INDICATION.PJT
+    Call Tree:   ADC_KNOB_INDICATION.tre
+    Statistics:  ADC_KNOB_INDICATION.sta

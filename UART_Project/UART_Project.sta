@@ -1,0 +1,62 @@
+
+ROM used: 686 (8%)
+          686 (8%) including unused fragments
+
+          0 Average locations per line
+          1 Average locations per statement
+
+RAM used: 78 (21%) at main() level
+          89 (24%) worst case
+
+Stack used: 3 worst case (out of 6 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  338   132  26  UART_Project.c
+  313     0   0  ..\..\..\PROGRA~2\PICC\devices\16F877A.h
+   37     0   0  ..\..\..\PROGRA~2\PICC\drivers\stdio.h
+  418     0   0  ..\..\..\PROGRA~2\PICC\drivers\string.h
+   28     0   0  ..\..\..\PROGRA~2\PICC\drivers\stddef.h
+   28     0   0  ..\..\..\PROGRA~2\PICC\drivers\ctype.h
+ 1493   380  74  ..\..\..\PROGRA~2\PICC\drivers\stdlib.h
+----- -----
+ 2655   512 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+ Inline        5             @MUL1616
+0     37   5   5             @DIV1616
+0      5   1   0    33  1.3  T360
+0     21   3   3             @DIV88
+0     76  11   1   486  4.2  seg7_conv
+ Inline        0   295  4.6  seg7_dsp
+ Inline        2   166  4.0  seg7
+ Inline        7   336  5.2  filter_8p
+ Inline        3   388  5.6  bpm_conv
+ Inline        7   361  5.6  thresAdaptiveControl
+0    381  56   1   556  3.8  adval_conv
+0    113  16   0   480  2.4  MAIN
+
+Program metrics:
+    Functions               9
+    Statements              512
+    Comments                701
+    Volume (V)              4877
+    Difficilty (D)          37.2
+    Effort to implement (E) 181587
+    Time to implement (T)   2 hours, 48 minutes
+    Est Delivered Bugs (B)  1
+    Cyclomatic Complexity   23
+    Maintainability (MI)    117
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-00034    49  0  
+00035-007FF   633  1362  
+00800-00FFF     0  2048  
+01000-017FF     0  2048  
+01800-01FFF     0  2048  
+
+
+
